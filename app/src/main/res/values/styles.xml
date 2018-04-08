@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#818B8B</item>
+        <item name="colorPrimaryDark">#364040</item>
+        <item name="colorAccent">#CFD9D9</item>
+    </style>
+
+    <style name="SongStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="PlayImageStyle">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="NowPlayingSongStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="SeekBarLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+
+    <style name="SeekBarStyle">
+        <item name="android:layout_width">246dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="AlbumCoverStyle">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

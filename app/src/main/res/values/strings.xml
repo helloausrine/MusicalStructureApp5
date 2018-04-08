@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+<!--Song names with song length-->
+    <string name="song1">Bon Iver - Holocene (5:37)</string>
+    <string name="song2">Post Malone - Congratulations (3:40)</string>
+    <string name="song3">Manila Grey - Disco Eyes (3:09)</string>
+    <string name="song4">Fort Frances - Summertime (4:15)</string>
+    <string name="song5">Tank - So Cold (4:01)</string>
+    <string name="song6">GoldFish - We Come Together (3:49)</string>
+    <string name="song7">Raleigh Ritchie - Stronger Than Ever (3:53)</string>
+    <string name="song8">Yoav - Where Is My Mind (6:11)</string>
+    <string name="song9">The Decemberists - Red Right Ankle (3:29)</string>
+    <string name="song10">Panic at The Disco - Death of a Bachelor (3:23)</string>
+    <string name="song11">Leona Lewis - Bleeding Love (4:00)</string>
+    <string name="song12">Jesse McCartney - The Other Guy (3:39)</string>
+    <string name="song13">DMX - X Gon Give It To Ya (3:39)</string>
+    <string name="song14">Daughter - Smother (4:01)</string>
+    <string name="song15">Bon Iver - Blood Bank (4:37)</string>
+    <string name="song16">Beissoul and Einius - Laikas Paikas (4:32)</string>
+    <string name="song17">Barcelona - Please Dont Go (4:33)</string>
+    <string name="song18">Armageddon aka Geddy - I Want It All (5:08)</string>
+    <string name="song19">Bon Iver - 22 (2:48)</string>
+    <string name="song20">Beissoul and Einius - Pill (4:08)</string>
+
+<!--Song names with song length-->
+    <string name="song1notime">Bon Iver - Holocene</string>
+
+<!--Button Text-->
+    <string name="PlayButton">Play</string>Alt +1F500
+    <string name="ShuffleButton">Shuffle</string>
+    <string name="SongLibrary">Song Library</string>
+
+<!--Activity Names-->
+    <string name="LibraryActivity">Library</string>
+    <string name="NowPlayingActivity">Now Playing</string>
+
+<!--Song 1 Seek Bar-->
+    <string name="Song1Beginning">0:00</string>
+    <string name="Song1End">5:37</string>
+</resources>

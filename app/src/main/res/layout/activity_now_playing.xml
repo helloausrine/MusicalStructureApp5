@@ -1,0 +1,81 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NowPlayingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Song Title-->
+        <TextView
+            style="@style/NowPlayingSongStyle"
+            android:text="@string/song1notime" />
+
+        <!--Album Cover-->
+        <ImageView
+            style="@style/AlbumCoverStyle"
+            android:src="@drawable/holocene" />
+
+        <!--Seek Bar-->
+        <LinearLayout
+            style="@style/SeekBarLayoutStyle">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Song1Beginning" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                style="@style/SeekBarStyle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Song1End" />
+
+        </LinearLayout>
+
+    <!--Back, Play, Forward Buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            style="@style/PlayImageStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backbutton"
+            android:layout_gravity="center"/>
+
+
+        <ImageButton
+            style="@style/PlayImageStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playbuttonbig"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            style="@style/PlayImageStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forwardbutton"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <!--Song Library Button-->
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/SongLibrary" />
+
+    </LinearLayout>
+
+</ScrollView>
