@@ -73,6 +73,7 @@
 
     <!--Song Library Button-->
         <Button
+            android:id="@+id/songlibrary"
             style="@style/ButtonStyle"
             android:text="@string/SongLibrary" />
 
