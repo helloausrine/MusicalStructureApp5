@@ -37,7 +37,7 @@ public class MusicLibraryActivity extends AppCompatActivity {
         SongAdapter songsAdapter = new SongAdapter(this, songs);
         //Finding ListView in the hierarchy
         ListView listView = (ListView) findViewById(R.id.musiclibrary);
-        //Make Listview use the adapter created
+        //Make ListView use the adapter created
         listView.setAdapter(songsAdapter);
 
         //Find views that link activities

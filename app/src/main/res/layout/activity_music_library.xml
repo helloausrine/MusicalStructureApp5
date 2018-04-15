@@ -13,7 +13,6 @@
         android:orientation="horizontal">
 
         <!--Play and Shuffle Buttons-->
-
         <Button
             android:id="@+id/playbutton"
             style="@style/ButtonStyle"
@@ -26,6 +25,7 @@
 
     </LinearLayout>
 
+    <!--List of Songs-->
     <ListView
         android:id="@+id/musiclibrary"
         android:layout_width="match_parent"
