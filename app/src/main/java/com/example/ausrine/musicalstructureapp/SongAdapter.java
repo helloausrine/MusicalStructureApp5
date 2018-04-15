@@ -30,14 +30,14 @@ public class SongAdapter extends ArrayAdapter<Song> {
         Song currentSong = getItem(position);
 
         // Find the artist TextView in the hierarchy
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.artist_text_view);
+        TextView artistTextView = (TextView) listItemView.findViewById(R.id.artist_text_view);
         // Get the artist name
-        miwokTextView.setText(currentSong.getArtistName());
+        artistTextView.setText(currentSong.getArtistName());
 
         // Find the song TextView in the hierarchy
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.song_text_view);
+        TextView songTextView = (TextView) listItemView.findViewById(R.id.song_text_view);
         // Get the song name
-        defaultTextView.setText(currentSong.getSongName());
+        songTextView.setText(currentSong.getSongName());
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.

@@ -1,5 +1,4 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,13 +15,12 @@
             android:text="@string/song1notime" />
 
         <!--Album Cover-->
-        <ImageView
+        <View
             style="@style/AlbumCoverStyle"
-            android:src="@drawable/holocene" />
+            android:background="@color/colorPrimaryDark" />
 
         <!--Seek Bar-->
-        <LinearLayout
-            style="@style/SeekBarLayoutStyle">
+        <LinearLayout style="@style/SeekBarLayoutStyle">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -40,38 +38,29 @@
 
         </LinearLayout>
 
-    <!--Back, Play, Forward Buttons-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-
-        <ImageButton
-            style="@style/PlayImageStyle"
-            android:layout_width="wrap_content"
+        <!--Back, Play, Forward Buttons-->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/backbutton"
-            android:layout_gravity="center"/>
+            android:gravity="center"
+            android:orientation="horizontal">
 
+            <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/PlayButton" />
 
-        <ImageButton
-            style="@style/PlayImageStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/playbuttonbig"
-            android:layout_gravity="center"/>
+            <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/PauseButton" />
 
-        <ImageButton
-            style="@style/PlayImageStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/forwardbutton"
-            android:layout_gravity="center"/>
+            <Button
+                style="@style/SmallButtonStyle"
+                android:text="@string/NextButton" />
 
-    </LinearLayout>
+            -->
+        </LinearLayout>
 
-    <!--Song Library Button-->
+        <!--Song Library Button-->
         <Button
             android:id="@+id/songlibrary"
             style="@style/ButtonStyle"

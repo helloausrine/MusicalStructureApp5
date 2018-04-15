@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">Musical Structure App</string>
 
-<!--Song names with song length-->
+<!--Song Names-->
     <string name="song1notime">Bon Iver - Holocene</string>
 
 <!--Button Text-->
     <string name="PlayButton">Play</string>
+    <string name="PauseButton">Pause</string>
+    <string name="NextButton">Next</string>
     <string name="ShuffleButton">Shuffle</string>
     <string name="SongLibrary">Song Library</string>
 
@@ -13,7 +15,7 @@
     <string name="LibraryActivity">Library</string>
     <string name="NowPlayingActivity">Now Playing</string>
 
-<!--Song 1 Seek Bar-->
+<!--Song 1 Seek Bar Values-->
     <string name="Song1Beginning">0:00</string>
     <string name="Song1End">5:37</string>
 </resources>
